@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-.debug{
-    border: 1px solid black;
+html{
+    scroll-behavior: smooth;
 }
 body{
     font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -52,6 +52,12 @@ nav ul{
 nav ul li{
     display: inline-block;
 }
+nav ul li a{
+    margin-left: 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
 #accedi{
     float:right;
     width: 15%;
@@ -64,14 +70,179 @@ nav ul li{
     display: inline;
 }
 /* main */
+
+/* jumbotron */
 #jumbotron{
     min-height: 546px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
 #jumbotron .container{
-    max-width: 780px;
+    max-width: 750px;
     text-align: center;
     color: #ffffff;
     padding-top:100px;
+}
+.jumbtitle{
+    margin-bottom: 40px;
+    font-size: 52px;
+}
+.jumbtext{
+    margin-bottom: 25px;
+}
+.white-black{
+    color: black;
+    background-color: white;
+}
+.black-white{
+    color: white;
+    background-color: black;
+    margin-left: 15px;
+}
+/* jumbotron */
+
+/* aside */
+aside{
+    height: 100vh;
+}
+.firstimg{
+    width: 70%;
+    float: left;
+    display: inline-block;
+}
+.firstext{
+    width: 30%;
+    float: left;
+    display: inline-block;
+    padding: 180px 180px 0 0;
+}
+.studygroup{
+   max-width: 600px;
+   margin: 150px;
+}
+div p{
+    margin-top: 25px;
+}
+/* /aside */
+
+/* aside */
+.wave{
+    margin-bottom: -10px;
+}
+.waveback{
+    background-color: #BBBBBB;
+}
+.secondtext{
+    width: 30%;
+    float: left;
+    padding: 180px 0px 0 147px;
+}
+
+.secondimg{
+    width: 70%;
+    float: right;
+}
+.waverot{
+    transform: rotate(180deg);
+    margin-top: -7px;
+}
+.thirdtext{
+    width: 30%;
+    float: left;
+    display: inline-block;
+    padding: 180px 100px 0 0;
+}
+.lastitle{
+   text-align: center;
+   padding-top: 100px;
+   font-size: 30px;  
+}
+p{
+    font-size: 16px;
+}
+.lastext{
+    text-align: center;
+    padding: 0px 280px;
+}
+.lastimg{
+    margin-left: 20%;
+}
+.stars{
+    margin-left: 32%;
+}
+.prt{
+    text-align: center;
+    font-size: 25px;
+}
+.blue-white{
+    text-align: center;
+    font-size: 16px;
+}
+#mac .btn{
+    padding: 10px 14px;
+    font-size: 14px;
+    margin: 30px 609px;
+
+}
+
+/* footer*/
+footer{
+    background-color: black;
+    height: 80vh;
+}
+.social{
+    width: 40%;
+    float: left;
+    padding: 90px 0px 0px 277px;
+    line-height: 2em;
+}
+h3{
+    color: #8EA1E1;
+    font-size: 25px;
+    font-weight: bold;
+}
+.flag{
+    width: 25px;
+}
+.ita{
+    display: inline-block;
+    font-size: 12px;
+}
+span{
+    display: block;
+    color: white;
+    font-size: 15px;
+    line-height: 2em;
+    
+}
+i{
+    color: white;
+}
+.prod{
+    width: 15%;
+    float: left;
+    padding: 95px 0px 0px 30px;
+
+}
+.colortitle{
+    color: #8EA1E1;
+    font-weight: bold;
+}
+.lastnav{
+    height:80px;
+    line-height: 80px;
+    margin-top: 45px;
+    border-top:  2px solid #8EA1E1;    
+}
+#registrati{
+    float:right;
+    width: 15%;  
+}
+#registrati .btn{
+    padding: 10px 14px;
+    background-color: #8EA1E;
+    font-size: 14px;
+    color: white;
+    display: inline;
+    margin-left:85px;
 }
